@@ -5,15 +5,17 @@ html {
 
 /* logo placement */
 #thelogo {
-    width: 350px;
+    width: 250px;
     height: auto; 
-    object-position: center;
-  
+    position: center;
+
   }
+
 /* This is the black gradient on the navigation bar */
 body{
-  font-family: latha;
+  font-family: Helvetica;
   color: white;
+  
   background: linear-gradient(
     rgba(0,0,0,0.75),rgba(0,0,0,0.80),rgba(0,0,0,0.15),rgba(0,0,0,0)
     ) 
@@ -23,29 +25,31 @@ body{
 }
 /* border of navigation bar */
 .nav {
-  width: 1250px;
-  float: center;
-  border: 1px solid black;
+  width:100%;
+  border: 1.5px solid #7A1003;
+  text-align: center;
+
 }
 .nav ul li
 {
   width: 120px;
   display: inline-block;
-  margin: 10px auto;
-  text-align: ;
+  padding: 10px 20px;
 
 }
 /* color of navigation titles */
 .nav ul li a {
   text-decoration: none;
-  color: darkgray;
+  color: white;
+  font-weight: bold;
+  
 }
 
 /* when hovering over the navigation names */
-.nav ul li:hover {
-  background-color: yellow;
+.nav ul li a:hover{
+  color: #7A1003;
+  transition: .3s;   
 }
-.nav ul li a:hover{color: white;}
 
 /* side box, aesthetics */
 .side{
@@ -58,4 +62,11 @@ body{
   bottom: 0;
 }
 
+.f1{
+  font-size: large;
+  
+}
 
+.f2{
+  font-family: Monaco, monospace;
+}
