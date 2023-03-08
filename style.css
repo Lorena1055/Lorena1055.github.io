@@ -10,12 +10,13 @@ body{
   background: linear-gradient(
     rgba(0,0,0,0.75),rgba(0,0,0,0.65),rgba(0,0,0,0.15),rgba(0,0,0,0)
     ) 
-    ,url(eddys.png)no-repeat;
+    ,url(pancakes.png)no-repeat;
   background-size:cover;
   
 }
+/* border of navigation bar */
 .nav {
-  width: 900px;
+  width: 810px;
   float: right;
   border: 1px solid black;
 }
@@ -38,3 +39,22 @@ body{
   background-color: yellow;
 }
 .nav ul li a:hover{color: white;}
+
+/* side box, aesthetics */
+.side{
+  width: 300px;
+  height: 539px;
+  background-color: darkred;
+  opacity: 1;
+  padding: 55px;
+  
+}
+
+/* logo placement */
+#thelogo {
+    width: 350px;
+    height: auto;
+    object-fit: side; 
+    object-position: center left;
+  
+  }
