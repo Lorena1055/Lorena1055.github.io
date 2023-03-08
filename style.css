@@ -2,10 +2,39 @@ html {
   height: 100%;
   width: 100%;
 }
+
+/* This is the black gradient on the navigation bar */
+body{
+  font-family: latha;
+  color: white;
+  background: linear-gradient(
+    rgba(0,0,0,0.75),rgba(0,0,0,0.65),rgba(0,0,0,0.15),rgba(0,0,0,0)
+    ) 
+    ,url(eddys.png)no-repeat;
+  background-size:cover;
+  
+}
 .nav {
   width: 900px;
   float: right;
   border: 1px solid black;
 }
+.nav ul li
+{
+  width: 120px;
+  float: left;
+  margin: 10px auto;
+  text-align: center;
 
+}
+/* color of navigation titles */
+.nav ul li a {
+  text-decoration: none;
+  color: darkgray;
+}
 
+/* when hovering over the navigation names */
+.nav ul li:hover {
+  background-color: yellow;
+}
+.nav ul li a:hover{color: white;}
