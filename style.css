@@ -5,9 +5,11 @@ html {
 
 /* logo placement */
 #thelogo {
-    width: 250px;
+    width: 30%;
     height: auto; 
-    position: center;
+    display: flex;
+    margin: 1px auto;
+    align-items: center;
 
   }
 
@@ -68,4 +70,5 @@ body{
 
 .f2{
   font-family: Monaco, monospace;
+  text-align: center;
 }
