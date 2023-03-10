@@ -7,28 +7,53 @@
   <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 
-<body
+<body onload="slider()">
+  
 
- <header>
-           <img id="thelogo" src="photos/logos.png">
-  <div class= "nav">
+<div class = "banner">
+  <div class = "slider">
+    <img src = "photos/benedict.png" id="backs">
+  </div>
+  <div class ="overlay">
+    <div class= "nav">
+      <header>
+     <img id="thelogo" src="photos/logos.png">
       <ul type= "none"> 
       <li> <a class= "f1" href=""> Home </a> </li>
       <li> <a class= "f1"href=""> About </a> </li>
       <li> <a class= "f1"href=""> Menu </a> </li>
       <li> <a class= "f1"href=""> Order Now </a> </li>
       <li> <a class= "f1"href=""> Contact </a> </li>
+        
     </ul>
+      </header>
   </div>
-</header>
-   
-<script>
-  var slideImg = document.getElementById("slideImg");
+  </div>
+</div>
 
-  var 
+  <script>
+  var backs = document.getElementById("backs"); /* photo will be replaced */
+
+  var images = new Array(
+    "photos/bennie.png",
+    "photos/pancakes.png",
+    "photos/homef.png",
+    "photos/monster.png"
+  );
+
+  var len = images.length;
+  var i = 0;
+
+  function slider(){
+    if(i> len-1)
+    {
+      i = 0;
+    }
+    backs.src = images[i];
+    i++;
+    setTimeout('slider()', 4000);
+  }
 </script>
-
-
 
 
   
@@ -37,9 +62,9 @@
     <h4> </h4>
   </div>
 
- 
     
 
 </body>
 
 </html>
+
