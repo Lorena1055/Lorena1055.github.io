@@ -1,9 +1,57 @@
 html {
   height: 100%;
   width: 100%;
+  background-color: solid #7A1003;
+  box-sizing:border-box;
+  
+}
+*{
+  margin: 5;
+  padding: 10;
+}
+body{
+  background-color:#7A1003;
+  display:flexbox;
+  justify-content: center;
+  min-height: 100vh;
+  
+}
+.grid{
+  display: grid;
+  width: 114em;
+  grid-gap: 6rem;
+  grid-template-columns:repeat(auto-fit, minmax(30rem, 1fr));
+}
+.grid-ex{
+  background-color: goldenrod;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  box-shadow: 0 3rem 6rem rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: 0.2s;
 }
 
+/* shadow movement under box */
+.grid-ex:hover{
+  transform: translateY(-0.5%);
+  box-shadow: 0 4rem 8rem rgba(0,0,0,0.5);
+}
 
+.cardima{
+  display: block;
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+  
+}
+.card-content{
+  padding: 3rem;
+}
+.card-header{
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 0.1;
+}
 /* logo placement */
 #thelogo {
     width: 30%;
@@ -13,14 +61,14 @@ html {
     align-items: center;
 
   }
-*{
-  background-color: solid #7A1003;
-}
+
 
 /* border of navigation bar */
 .nav {
   width:100%;
-  border: 2.5px solid #7A1003;
+  display: flex;
+  margin: 60px auto;
+  border: 4.5px solid #7A1003;
   text-align: center;
   
 
@@ -53,7 +101,7 @@ html {
 
 .f2{
   font-family: Monaco, monospace;
-  text-align: center;
+  text-align: justify;
 } 
 
 .banner{
@@ -79,7 +127,5 @@ html {
   position:absolute;
   top:0;
 }
-
-/* side box, aesthetics */
 
 
