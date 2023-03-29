@@ -1,12 +1,50 @@
 <!DOCTYPE html>
 <html>
+  
 <head>
-<title>Page Title</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
-<body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+  
+<body class="contactstyle">
+    
+    <div class= "nav">
+      <div class ="logo">
+      <img style = "center" src="photos/logos.png" class="logo">
+     </div> 
+      <header>
+      <ul type= "none"> 
+      <li> <a class= "f1" href="index.html"> Home </a> </li>
+      <li> <a class= "f1"href="about.html"> About </a> </li>
+      <li> <a class= "f1"href="menu.html"> Menu </a> </li>
+      <li> <a class= "f1"href="contact.html"> Contact </a> </li>
+        
+      </ul>
+      </header>
+    </div>
+          
+
+<div class="container">
+	<h3>Contact Form</h3>
+	<form action="#" name="contact_form">
+		<label for="first_name">First Name</label>
+		<input name="first_name" type="text" required placeholder="John"/>
+		<br>
+		<label for="last_name">Last Name</label>
+		<input name="last_name" type="text" required placeholder="Doe"/>
+		<br>
+		<label for="email">Email</label>
+		<input name="email" type="email" required placeholder="you@domain.com"/>
+		<br>
+		<label for="message">Message</label><br>
+		<textarea name="message" cols="30" rows="10" placeholder="Enter your message here ..." required> </textarea>
+		<div class="center">
+			<input type="submit" value="Submit">
+		</div>
+	</form>	
+</div>
 
 </body>
 </html> 
