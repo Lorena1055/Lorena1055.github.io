@@ -7,6 +7,11 @@ html {
   box-sizing: border-box;
 }
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
 /* ----------- HOME PAGE ------------- */
 
 body{
@@ -168,6 +173,36 @@ body{
   color: white;
   font-size: 25px;
 }
+
+/* ----------- MENU ------------- */
+.ordern{
+    padding: 70px 90px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  background-color: #7A1003;
+  border: 3px solid #7A1003;
+}
+
+.buttorder {
+  background-color: #565044;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.ord{
+  border-radius: 8px;
+}
+
+.buttorder:hover {
+      background-color: #ED7014;
+      }
 
 
 /* ----------- CONTACT US ------------- */
