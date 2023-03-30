@@ -1,12 +1,12 @@
 html {
   height: 100%;
-
+ box-sizing: border-box;
 }
 
 /* ----------- HOME PAGE ------------- */
 
 body{
-  background-color:#aa8a78;
+  background-color: #FEE89E;
   display: flexbox;
   justify-content: center;
   min-height: 200%;
@@ -72,7 +72,8 @@ body{
   margin: 30px auto;
   text-align: center;
   overflow: hidden;
-  background-color: goldenrod;
+  background-color: #565044;
+  border: 3px solid #7A1003;
   
 }
 .nav ul li
@@ -98,6 +99,7 @@ body{
 /* size of navigation bar font */ 
 .f1{
   font-size: x-large;
+  
 }
 
 .f2{
@@ -134,8 +136,28 @@ body{
   top:0;
 }
 
+/* ----------- ABOUT US ------------- */
+
+
 
 /* ----------- CONTACT US ------------- */
+.about-section {
+  padding: 70px 90px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  background-color: #565044;
+  border: 3px solid #7A1003;
+  
+}
+
+.googlemaps{
+  width: 100%;
+  
+}
+.container {
+  padding: 50px;
+}
 .contactstyle #content { 
    background-color: aliceblue;
 }
@@ -143,14 +165,37 @@ body{
  input[type=text], select, textarea {
       width: 100%; 
       padding: 12px; 
+      margin-top: 10px; 
+      margin-bottom: 16px; 
       border: 3px solid #7A1003; 
       border-radius: 4px; 
       box-sizing: border-box; 
-      margin-top: 10px; /* Add a top margin */
-      margin-bottom: 16px; /* Bottom margin */
+      
       
       }
-    
+
+  input[type=email], select, textarea {
+      width: 100%; 
+      margin-top: 10px; 
+      margin-bottom: 16px; 
+      padding: 12px; 
+      border: 3px solid #7A1003; 
+      border-radius: 4px; 
+      box-sizing: border-box; 
+      
+      }
+
+  input[type=date], select {
+      width: 20%; 
+      margin-top: 10px; 
+      margin-bottom: 16px; 
+      padding: 12px; 
+      border: 3px solid #7A1003; 
+      border-radius: 4px; 
+      box-sizing: border-box; 
+      
+      }
+
     /* Sumbmit Button */
     input[type=submit] {
       background-color: #7A1003;
@@ -166,10 +211,11 @@ body{
       background-color: #ED7014;
       }
     
-    /* box arounf contact us */
+    /* box around contact us */
     .container {
       border-radius: 5px;
-      background-color: goldenrod;
+      background-color: #565044;
+      border: 3px solid #7A1003;
       padding: 20px;
       }
 

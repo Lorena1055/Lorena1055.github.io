@@ -9,6 +9,9 @@
 
   
 <body class= "contactstyle">
+  
+
+  
        <div class ="logo">
       <img style ="object-position: center;" src="photos/logos.png" class="logo">
      </div> 
@@ -25,22 +28,43 @@
       </ul>
       </header>
     </div>
-          
+
+ 
+
+
+ <div class="about-section">
+  <h1>Location</h1>
+  <h3>Your food is waiting for YOU!</h3>
+  <h3>You can find us at 187 Beach St, Malden MA 
+    or just click on the map below.</h3>
+    <br>
+     <div class="map">
+     <iframe class= "googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2944.8086161084934!2d-71.0272162852345!3d42.4318084385614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e372181d3c7027%3A0x7a3dc63e9950c831!2sEddy&#39;s%20Diner%20Breakfast%20%26%20Lunch!5e0!3m2!1sen!2sus!4v1680136200245!5m2!1sen!2sus" width="900" height="450" frameborder="0" style="border:0;"  allowfullscreen="" aria-hidden="false" tabindex="0"> </iframe>
+      </div>
+  <br>
+</div>
+  <br>
+  <br>
+
 
 <div class="container">
 	<h2>Contact Us!</h2>
-	<form action="#" name="contact_form">
+	<form action="https://formsubmit.co/409c0823e1b37f06d0aa711f1addfc93" method="POST" name="contact_form">
 		<label for="first_name">First Name</label>
-		<input name="first_name" type="text" />
+		<input name="first_name" type="text" placeholder= "First Name" required/>
 		<br>
 		<label for="last_name">Last Name</label>
-		<input name="last_name" type="text"/> 
+		<input name="last_name" type="text" placeholder= "Last Name" required/> 
 		<br>
 		<label for="email">Email</label>
-		<input name="email" type="email" />
+		<input name="email" type="email" placeholder= "Email" required />
 		<br>
+    <label for="date">Order Date</label>
+		<input name="date" type="date" placeholder= "Order Date" required/> 
+		<br>
+    <br>
 		<label for="message">Message</label><br>
-		<textarea name="message" cols="30" rows="10" > 
+		<textarea name="message" placeholder= "Enter Message Here..." required cols="30" rows="10" > 
     </textarea>
 		<div class="center">
 			<input type="submit" value="Submit">
