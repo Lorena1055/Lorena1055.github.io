@@ -98,7 +98,7 @@ body{
 
 /* when hovering over the navigation names */
 .nav ul li a:hover{
-  color: #7A1003;
+  color: white;
   transition: .3s;   
 }
 
