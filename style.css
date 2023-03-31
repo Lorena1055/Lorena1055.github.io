@@ -146,7 +146,7 @@ body{
 
 /* ----------- ABOUT US ------------- */
 .about{
-  background: url(/photos/aboutus.jpg) no-repeat left;
+  background: url(photos/aboutus.jpg) no-repeat left;
   background-position:fixed;
   background-size:70%;
   background-color: #565044;
